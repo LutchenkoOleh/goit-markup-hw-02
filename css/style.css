@@ -102,8 +102,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  Width: 169px;
-  Height: 56px;
   cursor: pointer
 }
 
@@ -149,7 +147,8 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center color: #2e2f42;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .section-three-list-item {
@@ -159,10 +158,6 @@ a {
 }
 
 
-.section-three-list-img {
-  width: 264px;
-  height: 260px;
-}
 
 .section-three-list-subject {
   font-weight: 500;
@@ -202,10 +197,7 @@ a {
   background: #fff;
 }
 
-.section-four-list-img {
-  width: 360;
-  height: 300px;
-}
+
 
 .section-four-list-title {
   font-weight: 500;
