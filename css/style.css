@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  color: #fff;
+  color: #434455;
 }
 
 ul {
@@ -17,14 +17,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-link-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 
@@ -45,6 +45,10 @@ a {
   color: #404bbf;
 }
 
+.header-list-item-link:focus {
+  color: #404bbf;
+}
+
 .header-list-item-span:active {
   color: #404bbf;
 }
@@ -52,6 +56,7 @@ a {
 
 .header-address-list {
   font-family: "Roboto", sans-serif;
+  font-style: normal
 }
 
 .header-address-list-item-link {
@@ -66,6 +71,10 @@ a {
   color: #404bbf;
 }
 
+.header-address-list-item-link:focus {
+  color: #404bbf;
+}
+
 /*section-one*/
 .section-one {
   font-family: "Roboto", sans-serif;
@@ -76,13 +85,14 @@ a {
 .section-one-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #fff;
 }
 
 .section-one-button {
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -91,11 +101,15 @@ a {
   color: #fff;
   Width: 169px;
   Height: 56px;
-
+  cursor: pointer
 }
 
 .section-one-button:hover {
   background: #404bbf;
+}
+
+.section-one-button:focus {
+  color: #404bbf
 }
 
 /*section-two*/
@@ -123,17 +137,20 @@ a {
 /*section-three*/
 .section-three {
   font-family: "Roboto", sans-serif;
+  background-color: #f4f4fd;
 }
 
 .section-three-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
 .section-three-list-item {
+  background-color: #fff;
   width: 264px;
   height: 380px;
 }
@@ -170,8 +187,10 @@ a {
 .section-four-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -213,14 +232,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .footer-link-logo {
-  color: #4d5ae5;
+  color: #f4f4fd;
 
 }
 
