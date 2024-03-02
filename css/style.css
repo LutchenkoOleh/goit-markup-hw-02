@@ -53,10 +53,13 @@ a {
   color: #404bbf;
 }
 
+.header-address {
+  font-style: normal
+}
 
 .header-address-list {
   font-family: "Roboto", sans-serif;
-  font-style: normal
+
 }
 
 .header-address-list-item-link {
@@ -109,7 +112,7 @@ a {
 }
 
 .section-one-button:focus {
-  color: #404bbf
+  background-color: #404bbf
 }
 
 /*section-two*/
@@ -146,7 +149,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  text-align: center color: #2e2f42;
 }
 
 .section-three-list-item {
@@ -200,7 +203,7 @@ a {
 }
 
 .section-four-list-img {
-  width: 360px;
+  width: 360;
   height: 300px;
 }
 
